@@ -1,0 +1,56 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+
+                git 'https://github.com/elifisci1103/SerenityBDDAndCucumberFramework.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+
+                sh 'mvn clean install'
+            }
+        }
+
+        stage('Test') {
+            steps {
+
+                sh 'mvn test'
+            }
+        }
+
+        stage('Report') {
+            steps {
+
+                junit '**/target/surefire-reports/*.xml'
+            }
+        }
+    }
+
+    post {
+        always {
+
+            archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+        }
+        failure {
+
+
+                  mail to: 'elifisci1103@gmail.com',
+                       subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
+                       body: """
+                          Merhaba,
+
+                          ${currentBuild.fullDisplayName} pipeline başarısız oldu.
+
+                          Detaylar için Jenkins build URL'sini kontrol edin: ${env.BUILD_URL}
+
+                          İyi çalışmalar,
+                          Jenkins
+                       """
+              }
+    }
+}
