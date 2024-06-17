@@ -104,7 +104,7 @@ Yeni Bir UI Testi Eklemek
 	
 2.	Feature Dosyasını Oluşturun: src/test/resources/features dizininde yeni bir feature dosyası oluşturun.
 	
-3.      Step Definitions Dosyasını Güncelleyin: src/test/java/stepdefinitions dizininde ilgili step definitions dosyasını güncelleyerek yeni adımları ekleyin.
+3.      StepDefinitions Dosyasını Güncelleyin:src/test/java/stepDefinitions dizininde yeni oluşturulan testler için gerekli kodları ekleyin.
   
 4.	Runner Dosyasını Güncelleyin: src/test/java/runners dizininde yeni testleri çalıştıracak bir runner dosyası oluşturun veya mevcut runner dosyasını
 
