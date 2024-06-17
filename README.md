@@ -52,17 +52,28 @@ Proje Yapısı
 
 
 Kurulum ve Kullanım Talimatları
+
+
 Gereksinimler
+
+
 •	Java Development Kit (JDK): 11+
 •	Maven: Proje bağımlılıklarını yönetmek için
 •	Jenkins:CI/CD süreçleri için
 •	Gerekli bağımlılıklar (Pom.xml)
+
+
 Kurulum
+
+
 1.	Java JDK 11 veya daha üst bir sürümü indirin ve yükleyin
 2.	Apache Maven indirin ve yükleyin.
 3.	Projeyi Githubdan klonlayın veya proje dosyalarını indirin ve çıkartın.
 4.	Bağımlılıkları yükleyin.Terminal veya komut satırında proje dizinine gidin ve “mvn clean install” komutunu çalıştırın.
+
+	
  Kullanım
+
 1.	Testleri Tekli Çalıştırma:Ui testlerini tek başına çalıştırmak için “UiRunnerTest” classını ,Api testlerini tek başına çalıştırmak için  “ApiRunnerTest” classını kullanın.Çalıştırmak istediğiniz testleri Runner classlarındaki @tag lar ile belirleyebilirsiniz.
 2.	Testleri Raporlu Çalıştırma:Çalıştırılan testlerden rapor almak için ise terminal veya komut satırında proje dizinine gidin ve “mvn clean verify” komutunu çalıştırın.
 3.	Testleri Çapraz Browser Çalıştırma:Testleri birden tarayıcıda arka arkaya çalıştırmak için Terminal veya komut satırında proje dizinine gidin ve “mvn clean verify -Dbrowser=firefox && mvn clean verify -Dbrowser=edge” komutunu çalıştırın.
