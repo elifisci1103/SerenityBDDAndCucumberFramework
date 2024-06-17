@@ -2,9 +2,9 @@ Test Automation Framework With Cucumber And Serenity BDD
 Giriş
 Bu proje, Cucumber ve Serenity BDD kullanarak test süreçlerini kolaylaştırmak için tasarlanmış bir test otomasyon framework'üdür. Web ve API fonksiyonları için otomatik testlerin kolay yazılması, yürütülmesi ve raporlanmasını sağlar.
 Proje Yapısı
-plaintext
-Kodu kopyala
-testAutomationFrameworkWithCucumberAndSerenityBDD
+
+
+
 │
 ├── configuration.properties
 ├── en yeni.zip
@@ -45,7 +45,8 @@ testAutomationFrameworkWithCucumberAndSerenityBDD
 │           └── features
 │               ├── ApiTest.feature
 │               └── UiTest.feature
-________________________________________
+
+
 Kurulum ve Kullanım Talimatları
 Gereksinimler
 •	Java Development Kit (JDK): 11+
