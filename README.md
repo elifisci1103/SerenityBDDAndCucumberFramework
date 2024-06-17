@@ -113,6 +113,7 @@ d.ReusableMethods=Ui testleri için ortak oluşturulan yeniden kullanılabilir m
    API Testi Yazma
    
   @api
+  
   Scenario: User should not be able to log in with invalid credentials
   Given API user sets "/api/users" path parameters
   When User sends a login request with "invalidUsername" and"invalidPassword"
@@ -121,6 +122,7 @@ d.ReusableMethods=Ui testleri için ortak oluşturulan yeniden kullanılabilir m
 UI Testi Yazma
 
 @ui
+
  Scenario: User should be able to login with valid credentials
   Given User is on the login page
   When User enters valid username and password
