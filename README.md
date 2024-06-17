@@ -65,7 +65,7 @@ d.ReusableMethods=Ui testleri için ortak oluşturulan yeniden kullanılabilir m
 
 6.Resources=Gherkin dilinde yazılmış test senaryolarının bulunduğu features dosyalarının bulunduğu paket.
 
-7.Target=Test raporlarının bulunduğu klasör.Burada Site/Serenity klasörü altında “screenshoots”dosyasının içinde test adımlarının ekran fotoğrafları,” index.xml “dosyasında ise test adımlarının ayrıntılı raporları yer alır.
+7.Target=Test raporlarının bulunduğu klasör.Burada Site/Serenity klasörü altında “screenshoots”dosyasının içinde test adımlarının ekran fotoğrafları,” index.html “dosyasında ise test adımlarının ayrıntılı raporları yer alır.
 
    Cucumber ve Serenity ile Test Yazma Örnekleri
    
