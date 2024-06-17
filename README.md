@@ -5,50 +5,6 @@ Giriş
 
 
 Bu proje, Cucumber ve Serenity BDD kullanarak test süreçlerini kolaylaştırmak için tasarlanmış bir test otomasyon framework'üdür. Web ve API fonksiyonları için otomatik testlerin kolay yazılması, yürütülmesi ve raporlanmasını sağlar.
-Proje Yapısı
-
-
-
-│
-├── configuration.properties
-├── en yeni.zip
-├── pom.xml
-├── serenity.properties
-├── .idea
-│   ├── .gitignore
-│   ├── compiler.xml
-│   ├── encodings.xml
-│   ├── jarRepositories.xml
-│   ├── misc.xml
-│   ├── uiDesigner.xml
-│   └── workspace.xml
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── org
-│   │           └── example
-│   │               └── App.java
-│   └── test
-│       ├── java
-│       │   ├── hooks
-│       │   │   └── HooksAPI.java
-│       │   ├── pages
-│       │   │   └── UiPage.java
-│       │   ├── runners
-│       │   │   ├── ApiRunnerTest.java
-│       │   │   └── UiRunnerTest.java
-│       │   ├── stepdefinitions
-│       │   │   ├── ApiStepDefinitions.java
-│       │   │   └── UiStepDefinitions.java
-│       │   ├── utilities
-│       │   │   ├── ApiUtils.java
-│       │   │   ├── ConfigReader.java
-│       │   │   ├── Driver.java
-│       │   │   └── ReusableMethods.java
-│       └── resources
-│           └── features
-│               ├── ApiTest.feature
-│               └── UiTest.feature
 
 
 Kurulum ve Kullanım Talimatları
