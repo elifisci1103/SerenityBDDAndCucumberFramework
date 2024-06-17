@@ -14,8 +14,11 @@ Gereksinimler
 
 
 •	Java Development Kit (JDK): 11+
+
 •	Maven: Proje bağımlılıklarını yönetmek için
+
 •	Jenkins:CI/CD süreçleri için
+
 •	Gerekli bağımlılıklar (Pom.xml)
 
 
